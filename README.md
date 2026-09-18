@@ -1,9 +1,7 @@
 ## Animal FASTQ Analysis
 The 5Day-BMD_FASTQ.sql script performs the Animal FASTQ analysis using the BMD_5DAY_FASTQ files from DTT.
 
-
-
-![Example PCA Analysis](/images/5DAY_AUTOMATION-PCA.png)
+![5day-reporting-FASTQ](/images/VIEWFASTQ.png)
 
 ### Generated Reports
 The code allows for input data file and chemical name to be added as parameters 
