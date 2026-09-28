@@ -1,4 +1,4 @@
-# 5DAY-BMD_FASTQ SQL Documentation
+# Animal FASTQ Report: 5DAY-BMD_FASTQ
 
 ## Overview
 
