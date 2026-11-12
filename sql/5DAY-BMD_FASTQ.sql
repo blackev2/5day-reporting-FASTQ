@@ -40,7 +40,7 @@ END,
 REGEXP_SUBSTR("Animal Number", '[A-Z]+$') ,
 Case when bmd.Tissue is null then 'None' else bmd.Tissue end),
 
-HEADER AS (select distinct study.study_id, study.depositor_study_number, study.chemical_name, pvt.casno, pvt.accession_number AS DTTID, db1.dtxsid, pvt.study_type, rtg.species, rtg.strain
+HEADER AS (select distinct study.study_id, study.depositor_study_number, study.chemical_name, pvt.casno, db1.dttid_study AS DTTID, db1.dtxsid, pvt.study_type, rtg.species, rtg.strain
 from rpts_study study, rpts_trt_groups rtg, rpts_pvt_c_number pvt, DDD@datacube_go_link db1
 where study.depositor_study_number in (&&user_input_fastq)
   and is_deleted = 'F'
