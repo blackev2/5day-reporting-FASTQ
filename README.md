@@ -67,10 +67,10 @@ The `HEADER` CTE retrieves study-level metadata:
 2. **Chemical Lookup:** Joins `RPTS_PVT_C_NUMBER` to retrieve:
    - Chemical name
    - CAS number (CASNO)
-   - DTTID (Accession number)
 
 3. **External Database Link:** Joins with `DDD@datacube_go_link` (appears to be an external database link to DataCube) to retrieve:
    - DTXSID (chemical identifier)
+   - DTTID (DTTID_study)
 
 4. **Treatment Metadata:** Joins with `RPTS_TRT_GROUPS` to capture:
    - Species
