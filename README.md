@@ -68,7 +68,7 @@ The `HEADER` CTE retrieves study-level metadata:
    - Chemical name
    - CAS number (CASNO)
 
-3. **External Database Link:** Joins with `DDD@datacube_go_link` (appears to be an external database link to DataCube) to retrieve:
+3. **External Database Link:** Joins with `DDD@datacube_go_link` (external database link to DataCube and CWHS) to retrieve:
    - DTXSID (chemical identifier)
    - DTTID (DTTID_study)
 
